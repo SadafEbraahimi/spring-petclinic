@@ -1,38 +1,50 @@
 Sadaf Ebrahimi 1946182
 
-5 pts Your Github account showing that is has been forked from the depaulcdm/springpetclinic
-repository.
-![1](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/1.PNG)
+DOCKER
+5 pts Your dockerfile. Please provide a link to this file rather than a screen capture.
+https://github.com/SadafEbraahimi/spring-petclinic/blob/master/Dockerfile
 
-5 pts Your Travis CI dashboard showing a successful first build.
-![2](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/2.PNG)
+5 pts Your running docker instance as shown by a ps command.
+![1](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/docker2.PNG)
 
-5 pts The section of the POM file showing the coordinates after you’ve changed them.
-![3](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/3.PNG)
+5 pts Your browser accessing the main page of the website from your local container.
+![1](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/docker3.PNG)
 
-5 pts Your Travis CI dashboard showing a successful build after your change of the group
-ID.
-![4](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/4.PNG)
 
-5 pts The section of the POM file showing the coordinates after you’ve commented them
-out.
-![5](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/5.PNG)
+DOCKER COMPOSE - MYSQL ONLY
+5 pts The output from the docker-compose up command.
+![1](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/mysqlonly1.PNG)
 
-5 pts Your Travis CI dashboard showing the unsuccessful build after the breaking change.
-![6](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/6.PNG)
+5 pts Your browser accessing the \Veterinarians" page of the website from your local container when you run the application from the host system.
+![1](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/mysqlonly2.PNG)
 
-5 pts Your Github repository with the readme.md file selected showing the build failed
-status after the Travis CI build fails.
-![7](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/7.PNG)
+5 pts A section of the stack trace generated when you attempt to run the application container that has been updated to use MySQL.
+![1](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/mysqlonly31.PNG)
+![1](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/mysqlonly32.PNG)
 
-5 pts The section of the POM file showing the coordinates after you’ve fixed them.
-![8](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/8.PNG)
+And after it fails:
+![1](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/mysqlonly-afterfailing.PNG)
 
-5 pts Your Travis CI dashboard showing the successful build after the breaking change has
-been fixed.
-![9](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/9.PNG)
+DOCKER COMPOSE - APP SERVER AND MYSQL
+5 pts Your updated docker-compose.yml file containing the application server, built from your local Dockerfile, and the existing MySQL configuration. Please provide a link to this file rather than a screen capture.
+https://github.com/SadafEbraahimi/spring-petclinic/blob/master/docker-compose.yml
 
-5 pts Your Github repository with the readme.md file selected showing the build success
-status after the Travis CI build has recovered.
-![10](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/10.PNG)
+5 pts Your updated application-mysql.properties file containing the URL change for the database server. Please provide a link to this file rather than a screen capture.
+https://github.com/SadafEbraahimi/spring-petclinic/blob/master/src/main/resources/application-mysql.properties
+
+5 pts The output from the docker-compose up command.
+![1](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/appmysql31.PNG)
+![1](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/appmysql32.PNG)
+
+5 pts Your browser accessing the \Veterinarians" page of the website from your local container.
+![1](https://github.com/SadafEbraahimi/spring-petclinic/blob/master/figures/appmysql4.PNG)
+
+
+
+
+
+
+
+
+
 
